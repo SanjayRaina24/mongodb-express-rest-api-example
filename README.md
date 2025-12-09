@@ -1,3 +1,8 @@
+Done by Group of
+
+Student-1 : Bhanu Sanjay Gandepalli
+Student-2 : Sai Rishitha Madira
+
 # MongoDB and Express.js REST API sample application
 
 This repository contains the sample application for the [MongoDB and Express.js REST API tutorial](https://www.mongodb.com/languages/express-mongodb-rest-api-tutorial).
