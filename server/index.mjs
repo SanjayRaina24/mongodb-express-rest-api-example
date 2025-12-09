@@ -15,8 +15,12 @@ app.use("/posts", posts);
 
 // Global error handling
 app.use((err, _req, res, next) => {
-  res.status(500).send("Uh oh! An unexpected error occured.")
+  res.status(500).send("Uh oh! An unexpected error occurred.")
 })
+
+app.get("/", (req, res) => {
+  res.send("API is running");
+});
 
 // start the Express server
 app.listen(PORT, () => {
